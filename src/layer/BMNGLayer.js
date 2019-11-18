@@ -47,7 +47,7 @@ define([
             this.displayName = "Blue Marble";
             this.pickEnabled = false;
 
-            this.urlBuilder = new WmsUrlBuilder("https://worldwind25.arc.nasa.gov/wms",
+            this.urlBuilder = new WmsUrlBuilder("https://astropedia.astrogeology.usgs.gov/download/Moon/LRO/LOLA/thumbs/Moon_LRO_LOLA_global_LDEM_1024.jpg",
                 layerName || "BlueMarble-200405", "", "1.3.0");
         };
 
