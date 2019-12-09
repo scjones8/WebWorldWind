@@ -41,7 +41,7 @@ define([
          * WorldWind.BingMapsKey is used. If that is null or undefined, the default WorldWind Bing Maps key is used,
          * but this fallback is provided only for non-production use. If you are using Web WorldWind in an app or a
          * web page, you must obtain your own key from the
-         * [Bing Maps Portal]{@link https://www.microsoft.com/maps/choose-your-bing-maps-API.aspx}
+         * [Bing Maps Portal]s
          * and either pass it as a parameter to this constructor or specify it as the property WorldWind.BingMapsKey.
          */
         var BingRoadsLayer = function (bingMapsKey) {

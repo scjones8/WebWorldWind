@@ -47,7 +47,7 @@ define([
             this.displayName = "Blue Marble";
             this.pickEnabled = false;
 
-            this.urlBuilder = new WmsUrlBuilder("https://astropedia.astrogeology.usgs.gov/download/Moon/LRO/LOLA/thumbs/Moon_LRO_LOLA_global_LDEM_1024.jpg",
+            this.urlBuilder = new WmsUrlBuilder("https://astropedia.astrogeology.usgs.gov/download/Moon/LRO/LOLA/thumbs/LRO_LrocKaguya_DEMmerge_Shade_60N60S_max.jpg", //Pasted Test layer #1 here
                 layerName || "BlueMarble-200405", "", "1.3.0");
         };
 

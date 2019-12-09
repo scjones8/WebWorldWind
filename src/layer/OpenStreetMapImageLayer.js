@@ -81,7 +81,8 @@ define([
                 var self = this;
                 var canvas = dc.currentGlContext.canvas;
                 this.xhr = new XMLHttpRequest();
-                this.xhr.open("GET", "https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml", true);
+                this.xhr.open("GET", "https://astropedia.astrogeology.usgs.gov/download/Moon/LMMP/LOLA-derived/Lunar_LRO_LOLA_ClrShade_Global_128ppd_v04.cub/max.jpg", true);
+                //pasted in test image #2
                 this.xhr.onreadystatechange = function () {
                     if (self.xhr.readyState === 4) {
                         if (self.xhr.status === 200) {

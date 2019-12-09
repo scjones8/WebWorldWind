@@ -83,7 +83,7 @@ define([
     });
 
     TectonicPlatesLayer.prototype.loadPlateData = function () {
-        var url = WorldWind.configuration.baseUrl + "images/TectonicPlates.json";
+        var url = WorldWind.configuration.baseUrl + "images/TectonicPlates.json"; //Is this where the imagery is linked? If so, how do I reroute it?
 
         var xhr = new XMLHttpRequest();
 
